@@ -11,7 +11,7 @@ poetry install
 
 Примеры запуска
 
-bash
+
 poetry run python -m toolkit --help
 poetry run python -m toolkit calc "2+3*4"
 poetry run python -m toolkit calc "-2+3"
