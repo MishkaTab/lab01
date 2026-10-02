@@ -1,3 +1,25 @@
+Установка и запуск
+
+Требуются Python 3.13, Poetry и Git.
+
+Клонируйте репозиторий и установите зависимости:
+
+git clone https://github.com/MishkaTab/lab01.git
+cd lab01
+poetry install
+
+
+Примеры запуска
+
+bash
+poetry run python -m toolkit --help
+poetry run python -m toolkit calc "2+3*4"
+poetry run python -m toolkit calc "-2+3"
+poetry run python -m toolkit convert 100 --from cm --to m
+
+
+poetry run pytest -q
+
 Калькулятор
 
 Токинезация -> Валидация -> Преобразование в rpn (развернутуюб польскую нотацию/постфиксную сумму) -> Вычисление
